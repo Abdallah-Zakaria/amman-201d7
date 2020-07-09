@@ -70,6 +70,8 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+    
+    var returnArray = [  ,testArray + " was passed in as an array of numbers, and 9 is their sum."]
 
 }
 

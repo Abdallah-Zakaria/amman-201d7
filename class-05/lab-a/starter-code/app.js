@@ -11,14 +11,14 @@ var a = 0;
 var b = 0;
 function sum(a, b) { //eslint-disable-line
     var sum = a + b;
-    var returnArray =[sum , 'The sum of '+a+' and '+b+' is '+sum+'.']
+    var returnArray = [sum, 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.']
     return returnArray
 }
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
-console.log(sum(4, 7));
-testSum()
+// console.log(sum(4, 7));
+// testSum()
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
 /////////////////////////////////////
@@ -30,17 +30,17 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-var a= 0 ;
+var a = 0;
 var b = 0;
 function multiply(a, b) { //eslint-disable-line
-    var multiply= a * b;
-    var returnArray =[ multiply , 'The product of '+a+' and '+ b+ ' is 45.' ];
+    var multiply = a * b;
+    var returnArray = [multiply, 'The product of ' + a + ' and ' + b + ' is 45.'];
     return returnArray;
 }
 
 // Here is the test for multiply(); uncomment it to run it
-console.log(multiply(5,9));
-multiply(5,9);
+// console.log(multiply(5, 9));
+// multiply(5, 9);
 testMultiply();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
@@ -80,8 +80,8 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-    
-    var returnArray = [  ,testArray + " was passed in as an array of numbers, and 9 is their sum."]
+
+    var returnArray = [, testArray + " was passed in as an array of numbers, and 9 is their sum."]
 
 }
 
